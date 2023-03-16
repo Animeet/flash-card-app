@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS Flash Cards</title>
+    <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body>
+    <!-- Main Header will stay here indefinitely -->
+    <h1 class="main-header text-center">Flash Cards</h1>
+
+    <section class="card-wrap text-center">
+        <button id="start">Start</button>
+
+        <div class="card-display hide">
+            <h3 id="question-display">What does the acronym DOM stand for?</h3>
+
+            <!-- Timer Display -->
+            <h1 id="time-display">5</h1>
+            <!-- Answer Display -->
+            <p id="answer-display" class="hide">Document Object Model</p>
+
+            <button id="next">Next Card</button>
+        </div>
+    </section>
+
+    <script src="assets/js/cards.js"></script>
+    <script src="assets/js/script.js"></script>
+</body>
+</html>
